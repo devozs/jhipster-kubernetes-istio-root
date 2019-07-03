@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "ui",
+      "organization",
+      "leave",
+      "meeting",
+      "notification"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": false,
+    "dockerRepositoryName": "acrdevozs.azurecr.io",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "office",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "23.101.74.16.nip.io",
+    "istio": true,
+    "jwtSecretKey": "ZWQwMDUwM2I1OTI0ZmU5YTQ1NWI2MDk4ZTljMTEwMWZhZDkyZTdiMmFhOTk3OTVhNTg4ODNkN2ZlZWI0NDg0NGUxMjgyNzVkOWVlNjI2OGM0ZTcxOGFhZWNjZmI3NDZkMjhjNg=="
+  }
+}
