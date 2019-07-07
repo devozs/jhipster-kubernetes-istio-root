@@ -6,10 +6,10 @@ logSummary(){
     echo ""
     echo "#####################################################"
     echo "Please find the below useful endpoints,"
-    echo "Gateway - http://ui.office23.101.74.16.nip.io"
-    echo "Jaeger - http://jaeger.${ISTIO_SYSTEM}23.101.74.16.nip.io"
-    echo "Grafana - http://grafana.${ISTIO_SYSTEM}23.101.74.16.nip.io"
-    echo "Kiali - http://kiali.${ISTIO_SYSTEM}23.101.74.16.nip.io"
+    echo "Gateway - http://ui.40.89.142.250.nip.io"
+    echo "Jaeger - http://jaeger.${ISTIO_SYSTEM}40.89.142.250.nip.io"
+    echo "Grafana - http://grafana.${ISTIO_SYSTEM}40.89.142.250.nip.io"
+    echo "Kiali - http://kiali.${ISTIO_SYSTEM}40.89.142.250.nip.io"
     echo "#####################################################"
 }
 

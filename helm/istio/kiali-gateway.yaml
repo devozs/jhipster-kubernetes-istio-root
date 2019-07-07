@@ -12,13 +12,13 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - kiali.23.101.74.16.nip.io
+    - kiali.40.89.142.250.nip.io
   - port:
       number: 80
       name: http2
       protocol: HTTP2
     hosts:
-    - kiali.23.101.74.16.nip.io
+    - kiali.40.89.142.250.nip.io
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -27,7 +27,7 @@ metadata:
   namespace: istio-system
 spec:
   hosts:
-  - kiali.23.101.74.16.nip.io
+  - kiali.40.89.142.250.nip.io
   gateways:
   - kiali-observability-gateway
   http:

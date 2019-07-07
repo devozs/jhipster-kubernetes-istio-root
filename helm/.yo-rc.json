@@ -20,7 +20,7 @@
     "dockerPushCommand": "docker push",
     "kubernetesNamespace": "office",
     "kubernetesServiceType": "Ingress",
-    "ingressDomain": ".23.101.74.16.nip.io",
+    "ingressDomain": ".40.89.142.250.nip.io",
     "monitoring": "prometheus",
     "istio": true
   }

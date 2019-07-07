@@ -18,7 +18,7 @@
     "dockerPushCommand": "docker push",
     "kubernetesNamespace": "office",
     "kubernetesServiceType": "Ingress",
-    "ingressDomain": "23.101.74.16.nip.io",
+    "ingressDomain": "40.89.142.250.nip.io",
     "istio": true,
     "jwtSecretKey": "ZWQwMDUwM2I1OTI0ZmU5YTQ1NWI2MDk4ZTljMTEwMWZhZDkyZTdiMmFhOTk3OTVhNTg4ODNkN2ZlZWI0NDg0NGUxMjgyNzVkOWVlNjI2OGM0ZTcxOGFhZWNjZmI3NDZkMjhjNg=="
   }
